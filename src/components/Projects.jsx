@@ -16,7 +16,7 @@ const projects = [
         description: "A simple Netflix clone built using only HTML, CSS, and JavaScript, featuring a responsive layout, movie poster grid, and interactive UI — mimicking the look and feel of the original Netflix homepage with dynamic movie listings using TMDB API.",
         image: "/images/net1.jpg",
         tag:["HTML/CSS", "API", "JavaScript"],
-        demoUrl: "#",
+        demoUrl: "https://netflix-clone-git-main-krish-kumars-projects-23be6d94.vercel.app/",
         githubUrl: "https://github.com/krishbit05/Netflix-clone",
     },
     {
