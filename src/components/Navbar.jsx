@@ -57,7 +57,7 @@ export const Navbar = () => {
                     <button onClick={() => setIsMenu((prev) => !prev)} className="md:hidden z-50 p-2 text-foreground" aria-label={isMenuOpen ? "close Menu" : "open Menu"} >{isMenuOpen ? <X /> : <Menu />}</button>
                     <div className={cn("fixed min-h-screen inset-0 bg-background/95 backdrop-blur-md z-40 flex flex-col items-center justify-center",
                         "transition-all duration-300 md:hidden",
-                        isMenuOpen ? "opacity-100 pointer-events-auto" : "opacity-0")}>
+                        isMenuOpen ? "fixed pointer-events-auto" : "hidden")}>
                         <div className="flex flex-col space-y-8 text-xl">
                             {navItems.map((item, key) => (
                                 <a key={key} href={item.href}
