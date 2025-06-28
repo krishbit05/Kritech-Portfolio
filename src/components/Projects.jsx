@@ -25,7 +25,7 @@ const projects = [
         description: "A clean and responsive To-Do App built with HTML, CSS, and JavaScript, allowing users to add, delete, and mark tasks as completed — with a minimal UI and real-time task management.Beautiful effects after task completion. ",
         image: "/images/todo.jpg",
         tag: ["HTML", "CSS", "JavaScript"],
-        demoUrl: "#",
+        demoUrl: "https://todo-app-alpha-two-20.vercel.app/",
         githubUrl: "https://github.com/krishbit05/Todo-App",
     }
 ]
