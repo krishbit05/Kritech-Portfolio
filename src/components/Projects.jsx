@@ -7,7 +7,7 @@ const projects = [
         description: "A sleek and responsive landing page for X (formerly Twitter) built with Tailwind CSS, featuring modern UI elements, dark mode styling, and mobile-first design principles — perfect for showcasing brand presence or social integration.",
         image: "/images/x.jpg",
         tag: ["Tailwindcss", "HTML", "Javascript"],
-        demoUrl: "#",
+        demoUrl: "https://x-twitter-tau.vercel.app/",
         githubUrl: "https://github.com/krishbit05/X-Twitter",
     },
     {
